@@ -1,4 +1,4 @@
-# `@solana-tdc/wallet-adapter-wallets-dtc`
+# `tdc-publish/wallet-adapter-wallets-dtc`
 
 <!-- @TODO -->
 
