@@ -2,11 +2,11 @@
 
 This is a quick setup guide with examples of how to add Wallet Adapter to a React-based Solana app.
 
-See the [packages](https://github.com/anza-xyz/wallet-adapter/blob/master/PACKAGES.md) and [FAQ](https://github.com/anza-xyz/wallet-adapter/blob/master/FAQ.md) for other supported frontend frameworks.
+See the [packages](https://github.com/duthanhdl97/tdc-wallet-adapter/blob/master/PACKAGES.md) and [FAQ](https://github.com/duthanhdl97/tdc-wallet-adapter/blob/master/FAQ.md) for other supported frontend frameworks.
 
 ## Quick Setup (using React UI)
 
-There are also [material-ui](https://github.com/anza-xyz/wallet-adapter/tree/master/packages/ui/material-ui) and [ant-design](https://github.com/anza-xyz/wallet-adapter/tree/master/packages/ui/ant-design) packages if you use those UI component frameworks.
+There are also [material-ui](https://github.com/duthanhdl97/tdc-wallet-adapter/tree/master/packages/ui/material-ui) and [ant-design](https://github.com/duthanhdl97/tdc-wallet-adapter/tree/master/packages/ui/ant-design) packages if you use those UI component frameworks.
 
 ### Install
 
@@ -17,7 +17,7 @@ npm install --save \
     @solana/wallet-adapter-base \
     @solana/wallet-adapter-react \
     @solana/wallet-adapter-react-ui \
-    @solana/wallet-adapter-wallets \
+    @solana/wallet-adapter-wallets-dtc \
     @solana/web3.js \
     react
 ```
@@ -28,7 +28,7 @@ npm install --save \
 import React, { FC, useMemo } from 'react';
 import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
 import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets';
+import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets-dtc';
 import {
     WalletModalProvider,
     WalletDisconnectButton,
@@ -58,7 +58,7 @@ export const Wallet: FC = () => {
              *
              * If you wish to support a wallet that supports neither of those standards,
              * instantiate its legacy wallet adapter here. Common legacy adapters can be found
-             * in the npm package `@solana/wallet-adapter-wallets`.
+             * in the npm package `@solana/wallet-adapter-wallets-dtc`.
              */
             new UnsafeBurnerWalletAdapter(),
         ],

@@ -151,7 +151,7 @@ importers:
       '@solana/wallet-adapter-react-ui':
         specifier: workspace:^
         version: link:../../ui/react-ui
-      '@solana/wallet-adapter-wallets':
+      '@solana/wallet-adapter-wallets-dtc':
         specifier: workspace:^
         version: link:../../wallets/wallets
       '@solana/web3.js':
@@ -263,7 +263,7 @@ importers:
       '@solana/wallet-adapter-react-ui':
         specifier: workspace:^
         version: link:../../ui/react-ui
-      '@solana/wallet-adapter-wallets':
+      '@solana/wallet-adapter-wallets-dtc':
         specifier: workspace:^
         version: link:../../wallets/wallets
       '@solana/wallet-standard-features':
@@ -348,7 +348,7 @@ importers:
       '@solana/wallet-adapter-react':
         specifier: workspace:^
         version: link:../../core/react
-      '@solana/wallet-adapter-wallets':
+      '@solana/wallet-adapter-wallets-dtc':
         specifier: workspace:^
         version: link:../../wallets/wallets
       '@solana/web3.js':
@@ -397,7 +397,7 @@ importers:
       '@solana/wallet-adapter-react-ui':
         specifier: workspace:^
         version: link:../../ui/react-ui
-      '@solana/wallet-adapter-wallets':
+      '@solana/wallet-adapter-wallets-dtc':
         specifier: workspace:^
         version: link:../../wallets/wallets
       next:
@@ -446,7 +446,7 @@ importers:
       '@solana/wallet-adapter-react-ui':
         specifier: workspace:^
         version: link:../../ui/react-ui
-      '@solana/wallet-adapter-wallets':
+      '@solana/wallet-adapter-wallets-dtc':
         specifier: workspace:^
         version: link:../../wallets/wallets
       '@solana/web3.js':

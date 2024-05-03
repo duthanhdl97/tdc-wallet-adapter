@@ -37,7 +37,7 @@ use-wallet-standard:
 
 
       Thanks for your contribution. We are no longer accepting PRs of adapters for this type of wallet. You can
-      [read about this policy here](https://github.com/anza-xyz/wallet-adapter/blob/master/WALLET.md),
+      [read about this policy here](https://github.com/duthanhdl97/tdc-wallet-adapter/blob/master/WALLET.md),
       but more importantly, please check out
       [this guide for wallets](https://github.com/anza-xyz/wallet-standard/blob/master/WALLET.md)
       to implement the Wallet Standard.
@@ -55,7 +55,7 @@ use-wallet-standard:
 
 
       _This
-      [automated message](https://github.com/anza-xyz/wallet-adapter/blob/master/.github/label-actions.yml)
+      [automated message](https://github.com/duthanhdl97/tdc-wallet-adapter/blob/master/.github/label-actions.yml)
       is a result of having added the &lsquo;use-wallet-standard&rsquo; tag_.
 
     # Close the issue

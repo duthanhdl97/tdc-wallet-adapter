@@ -4,37 +4,37 @@
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.32
+-   @solana/wallet-adapter-wallets-dtc@0.19.32
 
 ## 0.1.29
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.31
+-   @solana/wallet-adapter-wallets-dtc@0.19.31
 
 ## 0.1.28
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.30
+-   @solana/wallet-adapter-wallets-dtc@0.19.30
 
 ## 0.1.27
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.29
+-   @solana/wallet-adapter-wallets-dtc@0.19.29
 
 ## 0.1.26
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.28
+-   @solana/wallet-adapter-wallets-dtc@0.19.28
 
 ## 0.1.25
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.27
+-   @solana/wallet-adapter-wallets-dtc@0.19.27
 
 ## 0.1.24
 
@@ -42,39 +42,39 @@
 
 -   Updated dependencies [cb29215]
     -   @solana/wallet-adapter-react-ui@0.9.35
-    -   @solana/wallet-adapter-wallets@0.19.26
+    -   @solana/wallet-adapter-wallets-dtc@0.19.26
 
 ## 0.1.23
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.25
+-   @solana/wallet-adapter-wallets-dtc@0.19.25
 
 ## 0.1.22
 
 ### Patch Changes
 
 -   Updated dependencies [46f06e72]
-    -   @solana/wallet-adapter-wallets@0.19.24
+    -   @solana/wallet-adapter-wallets-dtc@0.19.24
 
 ## 0.1.21
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.23
+-   @solana/wallet-adapter-wallets-dtc@0.19.23
 
 ## 0.1.20
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.22
+-   @solana/wallet-adapter-wallets-dtc@0.19.22
 
 ## 0.1.19
 
 ### Patch Changes
 
 -   Updated dependencies [bdc0eff]
-    -   @solana/wallet-adapter-wallets@0.19.21
+    -   @solana/wallet-adapter-wallets-dtc@0.19.21
     -   @solana/wallet-adapter-react@0.15.35
     -   @solana/wallet-adapter-react-ui@0.9.34
 
@@ -85,7 +85,7 @@
 -   Updated dependencies [a3d35a1]
     -   @solana/wallet-adapter-react@0.15.34
     -   @solana/wallet-adapter-base@0.9.23
-    -   @solana/wallet-adapter-wallets@0.19.20
+    -   @solana/wallet-adapter-wallets-dtc@0.19.20
     -   @solana/wallet-adapter-react-ui@0.9.33
 
 ## 0.1.17
@@ -97,13 +97,13 @@
 -   Updated dependencies [7c6f2e1]
     -   @solana/wallet-adapter-react-ui@0.9.32
     -   @solana/wallet-adapter-react@0.15.33
-    -   @solana/wallet-adapter-wallets@0.19.19
+    -   @solana/wallet-adapter-wallets-dtc@0.19.19
 
 ## 0.1.16
 
 ### Patch Changes
 
--   @solana/wallet-adapter-wallets@0.19.18
+-   @solana/wallet-adapter-wallets-dtc@0.19.18
 
 ## 0.1.15
 
@@ -111,7 +111,7 @@
 
 -   8a8fdc72: Update dependencies
 -   Updated dependencies [8a8fdc72]
-    -   @solana/wallet-adapter-wallets@0.19.15
+    -   @solana/wallet-adapter-wallets-dtc@0.19.15
     -   @solana/wallet-adapter-react-ui@0.9.29
     -   @solana/wallet-adapter-react@0.15.30
     -   @solana/wallet-adapter-base@0.9.22
@@ -125,7 +125,7 @@
     -   @solana/wallet-adapter-base@0.9.20
     -   @solana/wallet-adapter-react@0.15.26
     -   @solana/wallet-adapter-react-ui@0.9.24
-    -   @solana/wallet-adapter-wallets@0.19.9
+    -   @solana/wallet-adapter-wallets-dtc@0.19.9
 
 ## 0.1.13
 
