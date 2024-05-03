@@ -14,11 +14,11 @@ Install these dependencies:
 
 ```shell
 npm install --save \
-    @solana/wallet-adapter-base \
-    @solana/wallet-adapter-react \
-    @solana/wallet-adapter-react-ui \
-    @solana/wallet-adapter-wallets-dtc \
-    @solana/web3.js \
+    tdc-publish/wallet-adapter-base \
+    tdc-publish/wallet-adapter-react \
+    tdc-publish/wallet-adapter-react-ui \
+    tdc-publish/wallet-adapter-wallets-dtc \
+    tdc-publish/web3.js \
     react
 ```
 
@@ -26,18 +26,18 @@ npm install --save \
 
 ```tsx
 import React, { FC, useMemo } from 'react';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets-dtc';
+import { ConnectionProvider, WalletProvider } from 'tdc-publish/wallet-adapter-react';
+import { WalletAdapterNetwork } from 'tdc-publish/wallet-adapter-base';
+import { UnsafeBurnerWalletAdapter } from 'tdc-publish/wallet-adapter-wallets-dtc';
 import {
     WalletModalProvider,
     WalletDisconnectButton,
     WalletMultiButton
-} from '@solana/wallet-adapter-react-ui';
-import { clusterApiUrl } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-react-ui';
+import { clusterApiUrl } from 'tdc-publish/web3.js';
 
 // Default styles that can be overridden by your app
-require('@solana/wallet-adapter-react-ui/styles.css');
+require('tdc-publish/wallet-adapter-react-ui/styles.css');
 
 export const Wallet: FC = () => {
     // The network can be set to 'devnet', 'testnet', or 'mainnet-beta'.
@@ -58,7 +58,7 @@ export const Wallet: FC = () => {
              *
              * If you wish to support a wallet that supports neither of those standards,
              * instantiate its legacy wallet adapter here. Common legacy adapters can be found
-             * in the npm package `@solana/wallet-adapter-wallets-dtc`.
+             * in the npm package `tdc-publish/wallet-adapter-wallets-dtc`.
              */
             new UnsafeBurnerWalletAdapter(),
         ],
@@ -83,9 +83,9 @@ export const Wallet: FC = () => {
 ### Usage
 
 ```tsx
-import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
-import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { Keypair, SystemProgram, Transaction } from '@solana/web3.js';
+import { WalletNotConnectedError } from 'tdc-publish/wallet-adapter-base';
+import { useConnection, useWallet } from 'tdc-publish/wallet-adapter-react';
+import { Keypair, SystemProgram, Transaction } from 'tdc-publish/web3.js';
 import React, { FC, useCallback } from 'react';
 
 export const SendSOLToRandomAddress: FC = () => {

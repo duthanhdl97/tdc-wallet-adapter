@@ -1,4 +1,4 @@
-import { Connection, type ConnectionConfig } from '@solana/web3.js';
+import { Connection, type ConnectionConfig } from 'tdc-publish/web3.js';
 import React, { type FC, type ReactNode, useMemo } from 'react';
 import { ConnectionContext } from './useConnection.js';
 

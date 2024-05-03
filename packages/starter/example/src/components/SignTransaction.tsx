@@ -1,6 +1,6 @@
 import { Button } from '@mui/material';
-import { useConnection, useWallet } from '@solana/wallet-adapter-react';
-import { PublicKey, Transaction, TransactionInstruction } from '@solana/web3.js';
+import { useConnection, useWallet } from 'tdc-publish/wallet-adapter-react';
+import { PublicKey, Transaction, TransactionInstruction } from 'tdc-publish/web3.js';
 import bs58 from 'bs58';
 import type { FC } from 'react';
 import React, { useCallback } from 'react';

@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-fractal`
+# `tdc-publish/wallet-adapter-fractal`
 
 This package provides an adapter to enable Solana apps to connect to a Fractal Wallet.
 

@@ -1,7 +1,7 @@
-# `@solana/wallet-adapter-walletconnect`
+# `tdc-publish/wallet-adapter-walletconnect`
 
 ```
-import { WalletConnectWalletAdapter } from '@solana/wallet-adapter-walletconnect';
+import { WalletConnectWalletAdapter } from 'tdc-publish/wallet-adapter-walletconnect';
 
 const App = () => {
   ...

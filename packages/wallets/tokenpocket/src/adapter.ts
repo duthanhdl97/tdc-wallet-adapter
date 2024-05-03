@@ -1,4 +1,4 @@
-import type { EventEmitter, WalletName } from '@solana/wallet-adapter-base';
+import type { EventEmitter, WalletName } from 'tdc-publish/wallet-adapter-base';
 import {
     BaseMessageSignerWalletAdapter,
     scopePollingDetectionStrategy,
@@ -11,9 +11,9 @@ import {
     WalletReadyState,
     WalletSignMessageError,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
-import type { Transaction } from '@solana/web3.js';
-import { PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import type { Transaction } from 'tdc-publish/web3.js';
+import { PublicKey } from 'tdc-publish/web3.js';
 
 interface TokenPocketWalletEvents {
     connect(...args: unknown[]): unknown;

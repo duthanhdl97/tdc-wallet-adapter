@@ -1,4 +1,4 @@
-import type { WalletName } from '@solana/wallet-adapter-base';
+import type { WalletName } from 'tdc-publish/wallet-adapter-base';
 import {
     BaseSignerWalletAdapter,
     scopePollingDetectionStrategy,
@@ -8,9 +8,9 @@ import {
     WalletPublicKeyError,
     WalletReadyState,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
-import type { Transaction } from '@solana/web3.js';
-import { PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import type { Transaction } from 'tdc-publish/web3.js';
+import { PublicKey } from 'tdc-publish/web3.js';
 
 interface SolongWallet {
     currentAccount?: string | null;

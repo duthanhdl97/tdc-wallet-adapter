@@ -1,15 +1,15 @@
 import { createTheme, StyledEngineProvider, ThemeProvider } from '@mui/material';
 import { deepPurple, pink } from '@mui/material/colors';
-import { WalletModalProvider as AntDesignWalletModalProvider } from '@solana/wallet-adapter-ant-design';
-import type { Adapter, WalletError } from '@solana/wallet-adapter-base';
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { WalletDialogProvider as MaterialUIWalletDialogProvider } from '@solana/wallet-adapter-material-ui';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
-import { WalletModalProvider as ReactUIWalletModalProvider } from '@solana/wallet-adapter-react-ui';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets-dtc';
-import { type SolanaSignInInput } from '@solana/wallet-standard-features';
-import { verifySignIn } from '@solana/wallet-standard-util';
-import { clusterApiUrl } from '@solana/web3.js';
+import { WalletModalProvider as AntDesignWalletModalProvider } from 'tdc-publish/wallet-adapter-ant-design';
+import type { Adapter, WalletError } from 'tdc-publish/wallet-adapter-base';
+import { WalletAdapterNetwork } from 'tdc-publish/wallet-adapter-base';
+import { WalletDialogProvider as MaterialUIWalletDialogProvider } from 'tdc-publish/wallet-adapter-material-ui';
+import { ConnectionProvider, WalletProvider } from 'tdc-publish/wallet-adapter-react';
+import { WalletModalProvider as ReactUIWalletModalProvider } from 'tdc-publish/wallet-adapter-react-ui';
+import { UnsafeBurnerWalletAdapter } from 'tdc-publish/wallet-adapter-wallets-dtc';
+import { type SolanaSignInInput } from 'tdc-publish/wallet-standard-features';
+import { verifySignIn } from 'tdc-publish/wallet-standard-util';
+import { clusterApiUrl } from 'tdc-publish/web3.js';
 import { SnackbarProvider, useSnackbar } from 'notistack';
 import type { FC, ReactNode } from 'react';
 import React, { useCallback, useMemo } from 'react';
@@ -71,7 +71,7 @@ const WalletContextProvider: FC<{ children: ReactNode }> = ({ children }) => {
              *
              * If you wish to support a wallet that supports neither of those standards,
              * instantiate its legacy wallet adapter here. Common legacy adapters can be found
-             * in the npm package `@solana/wallet-adapter-wallets-dtc`.
+             * in the npm package `tdc-publish/wallet-adapter-wallets-dtc`.
              */
             new UnsafeBurnerWalletAdapter(),
         ],

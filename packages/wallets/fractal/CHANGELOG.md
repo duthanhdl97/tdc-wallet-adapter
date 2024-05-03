@@ -1,11 +1,11 @@
-# @solana/wallet-adapter-fractal
+# tdc-publish/wallet-adapter-fractal
 
 ## 0.1.8
 
 ### Patch Changes
 
 -   Updated dependencies [a3d35a1]
-    -   @solana/wallet-adapter-base@0.9.23
+    -   tdc-publish/wallet-adapter-base@0.9.23
 
 ## 0.1.7
 
@@ -13,14 +13,14 @@
 
 -   8a8fdc72: Update dependencies
 -   Updated dependencies [8a8fdc72]
-    -   @solana/wallet-adapter-base@0.9.22
+    -   tdc-publish/wallet-adapter-base@0.9.22
 
 ## 0.1.6
 
 ### Patch Changes
 
 -   Updated dependencies [f99c2154]
-    -   @solana/wallet-adapter-base@0.9.21
+    -   tdc-publish/wallet-adapter-base@0.9.21
 
 ## 0.1.5
 
@@ -28,7 +28,7 @@
 
 -   912cc0e: Allow wallets to customize autoConnect handling, adding support for Phantom deep links on iOS
 -   Updated dependencies [912cc0e]
-    -   @solana/wallet-adapter-base@0.9.20
+    -   tdc-publish/wallet-adapter-base@0.9.20
 
 ## 0.1.4
 
@@ -42,4 +42,4 @@
 
 -   ac78da7: Add signMessage method to Fractal adapter
 -   Updated dependencies [353f2a5]
-    -   @solana/wallet-adapter-base@0.9.19
+    -   tdc-publish/wallet-adapter-base@0.9.19

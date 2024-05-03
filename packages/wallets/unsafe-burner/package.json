@@ -1,7 +1,7 @@
 {
-    "name": "@solana/wallet-adapter-unsafe-burner",
+    "name": "tdc-publish/wallet-adapter-unsafe-burner",
     "version": "0.1.7",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
@@ -32,16 +32,16 @@
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "peerDependencies": {
-        "@solana/web3.js": "^1.77.3"
+        "tdc-publish/web3.js": "^1.77.3"
     },
     "dependencies": {
         "@noble/curves": "^1.1.0",
-        "@solana/wallet-adapter-base": "workspace:^",
-        "@solana/wallet-standard-features": "^1.1.0",
-        "@solana/wallet-standard-util": "^1.1.0"
+        "tdc-publish/wallet-adapter-base": "workspace:^",
+        "tdc-publish/wallet-standard-features": "^1.1.0",
+        "tdc-publish/wallet-standard-util": "^1.1.0"
     },
     "devDependencies": {
-        "@solana/web3.js": "^1.77.3",
+        "tdc-publish/web3.js": "^1.77.3",
         "shx": "^0.3.4"
     }
 }

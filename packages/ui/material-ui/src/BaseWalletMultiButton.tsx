@@ -9,7 +9,7 @@ import {
 import type { ButtonProps, Theme } from '@mui/material';
 import { Collapse, Fade, ListItemIcon, Menu, MenuItem, styled } from '@mui/material';
 
-import { useWalletMultiButton } from '@solana/wallet-adapter-base-ui';
+import { useWalletMultiButton } from 'tdc-publish/wallet-adapter-base-ui';
 import React, { useMemo, useState } from 'react';
 import { BaseWalletConnectionButton } from './BaseWalletConnectionButton.js';
 import { useWalletDialog } from './useWalletDialog.js';

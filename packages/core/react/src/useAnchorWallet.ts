@@ -1,4 +1,4 @@
-import { type PublicKey, type Transaction, type VersionedTransaction } from '@solana/web3.js';
+import { type PublicKey, type Transaction, type VersionedTransaction } from 'tdc-publish/web3.js';
 import { useMemo } from 'react';
 import { useWallet } from './useWallet.js';
 

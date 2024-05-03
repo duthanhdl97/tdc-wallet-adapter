@@ -4,9 +4,9 @@ import {
     createDefaultWalletNotFoundHandler,
     SolanaMobileWalletAdapter,
     SolanaMobileWalletAdapterWalletName,
-} from '@solana-mobile/wallet-adapter-mobile';
-import { type Adapter, type WalletError, type WalletName } from '@solana/wallet-adapter-base';
-import { useStandardWalletAdapters } from '@solana/wallet-standard-wallet-adapter-react';
+} from 'tdc-publish-mobile/wallet-adapter-mobile';
+import { type Adapter, type WalletError, type WalletName } from 'tdc-publish/wallet-adapter-base';
+import { useStandardWalletAdapters } from 'tdc-publish/wallet-standard-wallet-adapter-react';
 import React, { type ReactNode, useCallback, useEffect, useMemo, useRef } from 'react';
 import getEnvironment, { Environment } from './getEnvironment.js';
 import getInferredClusterFromEndpoint from './getInferredClusterFromEndpoint.js';

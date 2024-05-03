@@ -18,9 +18,9 @@ import {
     ListItem,
     styled,
 } from '@mui/material';
-import type { WalletName } from '@solana/wallet-adapter-base';
-import { WalletReadyState } from '@solana/wallet-adapter-base';
-import { useWallet, type Wallet } from '@solana/wallet-adapter-react';
+import type { WalletName } from 'tdc-publish/wallet-adapter-base';
+import { WalletReadyState } from 'tdc-publish/wallet-adapter-base';
+import { useWallet, type Wallet } from 'tdc-publish/wallet-adapter-react';
 import type { FC, ReactElement, SyntheticEvent } from 'react';
 import React, { useCallback, useMemo, useState } from 'react';
 import { WalletListItem } from './WalletListItem.js';

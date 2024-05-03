@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-bitkeep`
+# `tdc-publish/wallet-adapter-bitkeep`
 
 <!-- @TODO -->
 

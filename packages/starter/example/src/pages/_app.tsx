@@ -6,15 +6,15 @@ import { ContextProvider } from '../components/ContextProvider';
 
 // Use require instead of import since order matters
 require('antd/dist/antd.dark.less');
-require('@solana/wallet-adapter-ant-design/styles.css');
-require('@solana/wallet-adapter-react-ui/styles.css');
+require('tdc-publish/wallet-adapter-ant-design/styles.css');
+require('tdc-publish/wallet-adapter-react-ui/styles.css');
 require('../styles/globals.css');
 
 const App: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <>
             <Head>
-                <title>@solana/wallet-adapter Example</title>
+                <title>tdc-publish/wallet-adapter Example</title>
             </Head>
             <ContextProvider>
                 <Component {...pageProps} />

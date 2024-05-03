@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-bitpie`
+# `tdc-publish/wallet-adapter-bitpie`
 
 <!-- @TODO -->
 

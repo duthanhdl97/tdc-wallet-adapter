@@ -9,15 +9,15 @@ import {
     type AuthorizationResultCache,
     SolanaMobileWalletAdapter,
     SolanaMobileWalletAdapterWalletName,
-} from '@solana-mobile/wallet-adapter-mobile';
+} from 'tdc-publish-mobile/wallet-adapter-mobile';
 import {
     type Adapter,
     BaseWalletAdapter,
     WalletError,
     type WalletName,
     WalletReadyState,
-} from '@solana/wallet-adapter-base';
-import { type Connection, PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import { type Connection, PublicKey } from 'tdc-publish/web3.js';
 import 'jest-localstorage-mock';
 import React, { createRef, forwardRef, useImperativeHandle } from 'react';
 import { createRoot } from 'react-dom/client';

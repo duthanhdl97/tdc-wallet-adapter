@@ -9,8 +9,8 @@ import {
     WalletNotConnectedError,
     WalletNotReadyError,
     WalletReadyState,
-} from '@solana/wallet-adapter-base';
-import { type PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import { type PublicKey } from 'tdc-publish/web3.js';
 import React, { type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { WalletNotSelectedError } from './errors.js';
 import { WalletContext } from './useWallet.js';

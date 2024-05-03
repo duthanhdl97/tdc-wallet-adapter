@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
-import { useWallet } from '@solana/wallet-adapter-react';
-import type { SolanaSignInInput } from '@solana/wallet-standard-features';
-import { verifySignIn } from '@solana/wallet-standard-util';
+import { useWallet } from 'tdc-publish/wallet-adapter-react';
+import type { SolanaSignInInput } from 'tdc-publish/wallet-standard-features';
+import { verifySignIn } from 'tdc-publish/wallet-standard-util';
 import bs58 from 'bs58';
 import type { FC } from 'react';
 import React, { useCallback } from 'react';

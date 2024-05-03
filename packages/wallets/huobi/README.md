@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-huobi`
+# `tdc-publish/wallet-adapter-huobi`
 
 <!-- @TODO -->
 

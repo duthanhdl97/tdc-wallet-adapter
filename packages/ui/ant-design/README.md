@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-ant-design`
+# `tdc-publish/wallet-adapter-ant-design`
 
 # Quick Setup (using Create-React-App with craco-less)
 See the [example](https://github.com/duthanhdl97/tdc-wallet-adapter/tree/master/packages/example) package for more usage.
@@ -32,17 +32,17 @@ See the [example](https://github.com/duthanhdl97/tdc-wallet-adapter/tree/master/
 npm install --save \
     antd \
     @ant-design/icons \
-    @solana/web3.js \
+    tdc-publish/web3.js \
     react
 ```
 4. Install these dependencies:
 
 ```
 npm install --save \
-    @solana/wallet-adapter-wallets-dtc \
-    @solana/wallet-adapter-react \
-    @solana/wallet-adapter-ant-design \
-    @solana/wallet-adapter-base
+    tdc-publish/wallet-adapter-wallets-dtc \
+    tdc-publish/wallet-adapter-react \
+    tdc-publish/wallet-adapter-ant-design \
+    tdc-publish/wallet-adapter-base
 ```
 
 

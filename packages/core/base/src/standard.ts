@@ -5,7 +5,7 @@ import {
     type SolanaSignMessageFeature,
     SolanaSignTransaction,
     type SolanaSignTransactionFeature,
-} from '@solana/wallet-standard-features';
+} from 'tdc-publish/wallet-standard-features';
 import type { Wallet as StandardWallet, WalletWithFeatures as StandardWalletWithFeatures } from '@wallet-standard/base';
 import {
     StandardConnect,

@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-unsafe-burner`
+# `tdc-publish/wallet-adapter-unsafe-burner`
 
 This is the default wallet adapter used in the starter packs. This adapter implements the Wallet Adapter interface, but uses an unsafe local keypair to sign messages.
 

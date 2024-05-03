@@ -1,7 +1,7 @@
 {
-    "name": "@solana/wallet-adapter-react",
+    "name": "tdc-publish/wallet-adapter-react",
     "version": "0.15.35",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
@@ -33,16 +33,16 @@
         "test": "jest"
     },
     "peerDependencies": {
-        "@solana/web3.js": "^1.77.3",
+        "tdc-publish/web3.js": "^1.77.3",
         "react": "*"
     },
     "dependencies": {
-        "@solana-mobile/wallet-adapter-mobile": "^2.0.0",
-        "@solana/wallet-adapter-base": "workspace:^",
-        "@solana/wallet-standard-wallet-adapter-react": "^1.1.0"
+        "tdc-publish-mobile/wallet-adapter-mobile": "^2.0.0",
+        "tdc-publish/wallet-adapter-base": "workspace:^",
+        "tdc-publish/wallet-standard-wallet-adapter-react": "^1.1.0"
     },
     "devDependencies": {
-        "@solana/web3.js": "^1.77.3",
+        "tdc-publish/web3.js": "^1.77.3",
         "@types/jest": "^28.1.8",
         "@types/react": "^18.2.13",
         "@types/react-dom": "^18.2.6",

@@ -11,8 +11,8 @@ import {
     type WalletName,
     WalletNotReadyError,
     WalletReadyState,
-} from '@solana/wallet-adapter-base';
-import { PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import { PublicKey } from 'tdc-publish/web3.js';
 import React, { createRef, forwardRef, useImperativeHandle } from 'react';
 import { createRoot } from 'react-dom/client';
 import { act } from 'react-dom/test-utils';

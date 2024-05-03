@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-coinbase`
+# `tdc-publish/wallet-adapter-coinbase`
 
 This package provides an adapter to enable Solana apps to connect to the Coinbase Wallet browser extension.
 

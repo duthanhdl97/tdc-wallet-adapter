@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-react`
+# `tdc-publish/wallet-adapter-react`
 
 ## Creating a custom connect button
 

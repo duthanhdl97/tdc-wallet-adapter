@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-trezor`
+# `tdc-publish/wallet-adapter-trezor`
 
 <!-- @TODO -->
 

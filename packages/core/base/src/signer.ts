@@ -1,5 +1,5 @@
-import type { SolanaSignInInput, SolanaSignInOutput } from '@solana/wallet-standard-features';
-import type { Connection, TransactionSignature } from '@solana/web3.js';
+import type { SolanaSignInInput, SolanaSignInOutput } from 'tdc-publish/wallet-standard-features';
+import type { Connection, TransactionSignature } from 'tdc-publish/web3.js';
 import {
     BaseWalletAdapter,
     type SendTransactionOptions,

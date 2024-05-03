@@ -1,4 +1,4 @@
-import { useWallet, type Wallet } from '@solana/wallet-adapter-react';
+import { useWallet, type Wallet } from 'tdc-publish/wallet-adapter-react';
 import { useCallback } from 'react';
 
 type ButtonState = {

@@ -1,7 +1,7 @@
 {
-    "name": "@solana/wallet-adapter-nextjs-starter",
+    "name": "tdc-publish/wallet-adapter-nextjs-starter",
     "version": "0.8.32",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
@@ -33,10 +33,10 @@
         "lint": "prettier --check 'src/{*,**/*}.{ts,tsx,js,jsx,json}' && eslint && next lint"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^",
-        "@solana/wallet-adapter-react": "workspace:^",
-        "@solana/wallet-adapter-react-ui": "workspace:^",
-        "@solana/wallet-adapter-wallets-dtc": "workspace:^",
+        "tdc-publish/wallet-adapter-base": "workspace:^",
+        "tdc-publish/wallet-adapter-react": "workspace:^",
+        "tdc-publish/wallet-adapter-react-ui": "workspace:^",
+        "tdc-publish/wallet-adapter-wallets-dtc": "workspace:^",
         "next": "^12.3.4",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"

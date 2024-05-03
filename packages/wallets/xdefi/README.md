@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-xdefi`
+# `tdc-publish/wallet-adapter-xdefi`
 
 <!-- @TODO -->
 

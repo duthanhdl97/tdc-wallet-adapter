@@ -1,7 +1,7 @@
 {
-    "name": "@solana/wallet-adapter-torus",
+    "name": "tdc-publish/wallet-adapter-torus",
     "version": "0.11.28",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
@@ -32,10 +32,10 @@
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "peerDependencies": {
-        "@solana/web3.js": "^1.77.3"
+        "tdc-publish/web3.js": "^1.77.3"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^",
+        "tdc-publish/wallet-adapter-base": "workspace:^",
         "@toruslabs/solana-embed": "^0.3.4",
         "assert": "^2.0.0",
         "crypto-browserify": "^3.12.0",
@@ -43,7 +43,7 @@
         "stream-browserify": "^3.0.0"
     },
     "devDependencies": {
-        "@solana/web3.js": "^1.77.3",
+        "tdc-publish/web3.js": "^1.77.3",
         "@types/keccak": "^3.0.1",
         "@types/node-fetch": "^2.6.4",
         "@types/readable-stream": "^2.3.15",

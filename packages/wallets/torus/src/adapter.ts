@@ -1,4 +1,4 @@
-import type { SendTransactionOptions, WalletName } from '@solana/wallet-adapter-base';
+import type { SendTransactionOptions, WalletName } from 'tdc-publish/wallet-adapter-base';
 import {
     BaseMessageSignerWalletAdapter,
     WalletAccountError,
@@ -14,9 +14,9 @@ import {
     WalletSendTransactionError,
     WalletSignMessageError,
     WalletSignTransactionError,
-} from '@solana/wallet-adapter-base';
-import type { Connection, Transaction, TransactionSignature } from '@solana/web3.js';
-import { PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import type { Connection, Transaction, TransactionSignature } from 'tdc-publish/web3.js';
+import { PublicKey } from 'tdc-publish/web3.js';
 import type { default as Torus, TorusParams } from '@toruslabs/solana-embed';
 
 export interface TorusWalletAdapterConfig {

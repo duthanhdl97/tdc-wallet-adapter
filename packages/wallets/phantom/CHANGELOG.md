@@ -1,11 +1,11 @@
-# @solana/wallet-adapter-phantom
+# tdc-publish/wallet-adapter-phantom
 
 ## 0.9.24
 
 ### Patch Changes
 
 -   Updated dependencies [a3d35a1]
-    -   @solana/wallet-adapter-base@0.9.23
+    -   tdc-publish/wallet-adapter-base@0.9.23
 
 ## 0.9.23
 
@@ -19,7 +19,7 @@
 
 -   8a8fdc72: Update dependencies
 -   Updated dependencies [8a8fdc72]
-    -   @solana/wallet-adapter-base@0.9.22
+    -   tdc-publish/wallet-adapter-base@0.9.22
 
 ## 0.9.21
 
@@ -27,7 +27,7 @@
 
 -   f99c2154: Fix for Phantom adapter's `connected` state
 -   Updated dependencies [f99c2154]
-    -   @solana/wallet-adapter-base@0.9.21
+    -   tdc-publish/wallet-adapter-base@0.9.21
 
 ## 0.9.20
 
@@ -41,7 +41,7 @@
 
 -   912cc0e: Allow wallets to customize autoConnect handling, adding support for Phantom deep links on iOS
 -   Updated dependencies [912cc0e]
-    -   @solana/wallet-adapter-base@0.9.20
+    -   tdc-publish/wallet-adapter-base@0.9.20
 
 ## 0.9.18
 
@@ -49,4 +49,4 @@
 
 -   fed93f5: Add support for VersionedTransaction to Phantom adapter
 -   Updated dependencies [353f2a5]
-    -   @solana/wallet-adapter-base@0.9.19
+    -   tdc-publish/wallet-adapter-base@0.9.19

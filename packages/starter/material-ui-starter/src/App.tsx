@@ -1,9 +1,9 @@
-import type { Adapter, WalletError } from '@solana/wallet-adapter-base';
-import { WalletAdapterNetwork } from '@solana/wallet-adapter-base';
-import { WalletDialogProvider, WalletMultiButton } from '@solana/wallet-adapter-material-ui';
-import { ConnectionProvider, WalletProvider } from '@solana/wallet-adapter-react';
-import { UnsafeBurnerWalletAdapter } from '@solana/wallet-adapter-wallets-dtc';
-import { clusterApiUrl } from '@solana/web3.js';
+import type { Adapter, WalletError } from 'tdc-publish/wallet-adapter-base';
+import { WalletAdapterNetwork } from 'tdc-publish/wallet-adapter-base';
+import { WalletDialogProvider, WalletMultiButton } from 'tdc-publish/wallet-adapter-material-ui';
+import { ConnectionProvider, WalletProvider } from 'tdc-publish/wallet-adapter-react';
+import { UnsafeBurnerWalletAdapter } from 'tdc-publish/wallet-adapter-wallets-dtc';
+import { clusterApiUrl } from 'tdc-publish/web3.js';
 import { useSnackbar } from 'notistack';
 import type { FC, ReactNode } from 'react';
 import React, { useCallback, useMemo } from 'react';
@@ -38,7 +38,7 @@ const Context: FC<{ children: ReactNode }> = ({ children }) => {
              *
              * If you wish to support a wallet that supports neither of those standards,
              * instantiate its legacy wallet adapter here. Common legacy adapters can be found
-             * in the npm package `@solana/wallet-adapter-wallets-dtc`.
+             * in the npm package `tdc-publish/wallet-adapter-wallets-dtc`.
              */
             new UnsafeBurnerWalletAdapter(),
         ],

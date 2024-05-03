@@ -1,6 +1,6 @@
-import type { WalletName } from '@solana/wallet-adapter-base';
-import { WalletReadyState } from '@solana/wallet-adapter-base';
-import { useWallet, type Wallet } from '@solana/wallet-adapter-react';
+import type { WalletName } from 'tdc-publish/wallet-adapter-base';
+import { WalletReadyState } from 'tdc-publish/wallet-adapter-base';
+import { useWallet, type Wallet } from 'tdc-publish/wallet-adapter-react';
 import type { ModalProps } from 'antd';
 import { Menu, Modal } from 'antd';
 import type { FC, MouseEvent } from 'react';

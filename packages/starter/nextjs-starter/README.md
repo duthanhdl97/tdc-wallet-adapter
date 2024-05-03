@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-nextjs-starter`
+# `tdc-publish/wallet-adapter-nextjs-starter`
 
 <!-- @TODO -->
 

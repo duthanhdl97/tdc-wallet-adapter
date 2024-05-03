@@ -1,5 +1,5 @@
-import { WalletNotConnectedError } from '@solana/wallet-adapter-base';
-import { SOLANA_DEVNET_CHAIN, SOLANA_MAINNET_CHAIN, SOLANA_TESTNET_CHAIN } from '@solana/wallet-standard-chains';
+import { WalletNotConnectedError } from 'tdc-publish/wallet-adapter-base';
+import { SOLANA_DEVNET_CHAIN, SOLANA_MAINNET_CHAIN, SOLANA_TESTNET_CHAIN } from 'tdc-publish/wallet-standard-chains';
 import {
     SolanaSignAndSendTransaction,
     type SolanaSignAndSendTransactionFeature,
@@ -10,7 +10,7 @@ import {
     SolanaSignTransaction,
     type SolanaSignTransactionFeature,
     type SolanaSignTransactionMethod,
-} from '@solana/wallet-standard-features';
+} from 'tdc-publish/wallet-standard-features';
 import type { default as SolflareMetaMask } from '@solflare-wallet/metamask-sdk';
 import type { Wallet } from '@wallet-standard/base';
 import {

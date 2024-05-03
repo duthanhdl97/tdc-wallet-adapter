@@ -1,4 +1,4 @@
-# @solana/wallet-adapter-react
+# tdc-publish/wallet-adapter-react
 
 ## 0.15.35
 
@@ -12,7 +12,7 @@
 
 -   a3d35a1: Add `signIn` (Sign In With Solana) method
 -   Updated dependencies [a3d35a1]
-    -   @solana/wallet-adapter-base@0.9.23
+    -   tdc-publish/wallet-adapter-base@0.9.23
 
 ## 0.15.33
 
@@ -42,14 +42,14 @@
 
 -   8a8fdc72: Update dependencies
 -   Updated dependencies [8a8fdc72]
-    -   @solana/wallet-adapter-base@0.9.22
+    -   tdc-publish/wallet-adapter-base@0.9.22
 
 ## 0.15.29
 
 ### Patch Changes
 
 -   Updated dependencies [f99c2154]
-    -   @solana/wallet-adapter-base@0.9.21
+    -   tdc-publish/wallet-adapter-base@0.9.21
 
 ## 0.15.28
 
@@ -69,14 +69,14 @@
 
 -   912cc0e: Allow wallets to customize autoConnect handling, adding support for Phantom deep links on iOS
 -   Updated dependencies [912cc0e]
-    -   @solana/wallet-adapter-base@0.9.20
+    -   tdc-publish/wallet-adapter-base@0.9.20
 
 ## 0.15.25
 
 ### Patch Changes
 
 -   Updated dependencies [353f2a5]
-    -   @solana/wallet-adapter-base@0.9.19
+    -   tdc-publish/wallet-adapter-base@0.9.19
 
 ## 0.15.24
 
@@ -94,7 +94,7 @@
 
 ### Patch Changes
 
--   5d016a2: Mobile Wallet Adapter and Wallet Standard support in `@solana/wallet-adapter-react`
+-   5d016a2: Mobile Wallet Adapter and Wallet Standard support in `tdc-publish/wallet-adapter-react`
 
     -   Early Access + Upgrade Guide: https://github.com/solana-labs/wallet-adapter/issues/604
     -   Changes in this release: https://github.com/solana-labs/wallet-adapter/pull/598

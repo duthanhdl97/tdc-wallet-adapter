@@ -1,4 +1,4 @@
-# `@solana/wallet-adapter-safepal`
+# `tdc-publish/wallet-adapter-safepal`
 
 <!-- @TODO -->
 

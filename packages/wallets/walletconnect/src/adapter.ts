@@ -3,7 +3,7 @@ import type {
     WalletConnectWallet,
     WalletConnectWalletAdapterConfig as BaseWalletConnectWalletAdapterConfig,
 } from '@jnwng/walletconnect-solana';
-import type { WalletName } from '@solana/wallet-adapter-base';
+import type { WalletName } from 'tdc-publish/wallet-adapter-base';
 import {
     BaseSignerWalletAdapter,
     WalletAdapterNetwork,
@@ -17,8 +17,8 @@ import {
     WalletSignMessageError,
     WalletSignTransactionError,
     WalletWindowClosedError,
-} from '@solana/wallet-adapter-base';
-import type { PublicKey, Transaction, TransactionVersion, VersionedTransaction } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import type { PublicKey, Transaction, TransactionVersion, VersionedTransaction } from 'tdc-publish/web3.js';
 
 export const WalletConnectWalletName = 'WalletConnect' as WalletName<'WalletConnect'>;
 

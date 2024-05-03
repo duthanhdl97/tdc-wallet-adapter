@@ -1,7 +1,7 @@
 {
-    "name": "@solana/wallet-adapter-react-ui-starter",
+    "name": "tdc-publish/wallet-adapter-react-ui-starter",
     "version": "0.9.33",
-    "author": "Solana Maintainers <maintainers@solana.foundation>",
+    "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",
     "license": "Apache-2.0",
     "publishConfig": {
@@ -25,11 +25,11 @@
         "start": "parcel src/index.html"
     },
     "dependencies": {
-        "@solana/wallet-adapter-base": "workspace:^",
-        "@solana/wallet-adapter-react": "workspace:^",
-        "@solana/wallet-adapter-react-ui": "workspace:^",
-        "@solana/wallet-adapter-wallets-dtc": "workspace:^",
-        "@solana/web3.js": "^1.77.3",
+        "tdc-publish/wallet-adapter-base": "workspace:^",
+        "tdc-publish/wallet-adapter-react": "workspace:^",
+        "tdc-publish/wallet-adapter-react-ui": "workspace:^",
+        "tdc-publish/wallet-adapter-wallets-dtc": "workspace:^",
+        "tdc-publish/web3.js": "^1.77.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },

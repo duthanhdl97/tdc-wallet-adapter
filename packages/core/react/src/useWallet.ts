@@ -6,8 +6,8 @@ import {
     type WalletAdapterProps,
     type WalletName,
     type WalletReadyState,
-} from '@solana/wallet-adapter-base';
-import { type PublicKey } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import { type PublicKey } from 'tdc-publish/web3.js';
 import { createContext, useContext } from 'react';
 
 export interface Wallet {

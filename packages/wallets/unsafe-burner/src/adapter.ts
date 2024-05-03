@@ -1,15 +1,15 @@
 import { ed25519 } from '@noble/curves/ed25519';
-import type { WalletName } from '@solana/wallet-adapter-base';
+import type { WalletName } from 'tdc-publish/wallet-adapter-base';
 import {
     BaseSignInMessageSignerWalletAdapter,
     isVersionedTransaction,
     WalletNotConnectedError,
     WalletReadyState,
-} from '@solana/wallet-adapter-base';
-import { type SolanaSignInInput, type SolanaSignInOutput } from '@solana/wallet-standard-features';
-import { createSignInMessage } from '@solana/wallet-standard-util';
-import type { Transaction, TransactionVersion, VersionedTransaction } from '@solana/web3.js';
-import { Keypair } from '@solana/web3.js';
+} from 'tdc-publish/wallet-adapter-base';
+import { type SolanaSignInInput, type SolanaSignInOutput } from 'tdc-publish/wallet-standard-features';
+import { createSignInMessage } from 'tdc-publish/wallet-standard-util';
+import type { Transaction, TransactionVersion, VersionedTransaction } from 'tdc-publish/web3.js';
+import { Keypair } from 'tdc-publish/web3.js';
 
 export const UnsafeBurnerWalletName = 'Burner Wallet' as WalletName<'Burner Wallet'>;
 
