@@ -1,5 +1,5 @@
 {
-    "name": "tdc-publish/wallet-adapter-wallets-dtc",
+    "name": "wallet-adapter-wallets-dtc",
     "version": "0.19.32",
     "author": "Solana Maintainers <maintainerstdc-publishtdc.foundation>",
     "repository": "https://github.com/duthanhdl97/tdc-wallet-adapter",

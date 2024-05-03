@@ -1,4 +1,4 @@
-# tdc-publish/wallet-adapter-wallets-dtc
+# wallet-adapter-wallets-dtc
 
 ## 0.19.32
 
